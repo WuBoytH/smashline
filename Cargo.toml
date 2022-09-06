@@ -7,7 +7,8 @@ edition = "2018"
 [dependencies]
 skyline = "0.2.1"
 # skyline_smash = { path = "../skyline-smash", features = ["weak_l2cvalue"] }
-skyline_smash = { git = "https://github.com/blu-dev/skyline-smash.git", features = ["weak_l2cvalue"] }
+# skyline_smash = { git = "https://github.com/wuboyth/skyline-smash.git", features = ["weak_l2cvalue"] }
+skyline_smash = { git = "https://github.com/blu-dev/skyline-smash.git", branch = "Specific-Skyline-Version", features = ["weak_l2cvalue"] }
 # skyline_smash = { git = "https://github.com/ultimate-research/skyline-smash.git", features = ["weak_l2cvalue"] }
 # skyline_smash = { git = "https://github.com/ultimate-research/skyline-smash.git" }
 smashline-macro = { path = "./smashline-macro" }
